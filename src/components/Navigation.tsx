@@ -8,7 +8,7 @@ export default function Navigation({ scrollToSection }: NavigationProps) {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            MebelStudio
+            PineWood39
           </h1>
           <div className="flex gap-6">
             {['home', 'catalog', 'calculator', 'portfolio', 'about', 'blog', 'contacts'].map((section) => (

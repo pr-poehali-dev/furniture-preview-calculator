@@ -97,7 +97,7 @@ export default function Index() {
               <Icon name="Info" className="w-3 h-3 mr-1" />
               О нас
             </Badge>
-            <h2 className="text-5xl font-bold mb-6">MebelStudio</h2>
+            <h2 className="text-5xl font-bold mb-6">PineWood39</h2>
             <p className="text-xl text-muted-foreground leading-relaxed">
               Мы — команда профессионалов с 14-летним опытом создания корпусной мебели премиум-класса. 
               Каждый проект для нас уникален, и мы подходим к его реализации с максимальной ответственностью.
@@ -234,7 +234,7 @@ export default function Index() {
 
       <footer className="bg-muted/50 py-8 px-4 border-t border-border">
         <div className="container mx-auto text-center text-muted-foreground">
-          <p className="mb-2">© 2024 MebelStudio. Все права защищены.</p>
+          <p className="mb-2">© 2024 PineWood39. Все права защищены.</p>
           <p className="text-sm">Создание корпусной мебели премиум-класса с 2010 года</p>
         </div>
       </footer>
