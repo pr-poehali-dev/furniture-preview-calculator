@@ -9,8 +9,16 @@ interface HeroSectionProps {
 
 export default function HeroSection({ scrollToSection }: HeroSectionProps) {
   return (
-    <section id="home" className="pt-32 pb-20 px-4">
-      <div className="container mx-auto">
+    <section id="home" className="relative pt-32 pb-20 px-4 overflow-hidden">
+      <div className="absolute inset-0 z-0">
+        <img 
+          src="https://cdn.poehali.dev/projects/730c0016-0a53-4519-9b2f-7ba6b7072ef2/files/79c5b8fa-fd19-4b0e-a97f-98cfb88d851f.jpg"
+          alt="Kitchen background"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-background via-background/95 to-background/60" />
+      </div>
+      <div className="container mx-auto relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="animate-fade-in">
             <Badge className="mb-4 bg-secondary/20 text-secondary border-secondary">
